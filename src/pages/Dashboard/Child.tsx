@@ -1,4 +1,4 @@
-import '../../index.css'
+import './Dashboard.css';
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
@@ -51,7 +51,7 @@ const rows = [
   { id: 2, car: 'Mercedes Benz', model: 'S-class', body_type: 'Sedan', gasoline:'22 gal', engine:'429hp 3L I6', price:'115,188' },
   { id: 3, car: 'Rolls-Royce', model: 'Phantom', body_type: 'Sedan', gasoline:'20 gal', engine:'6.7L 12 Cylinder', price:'395,995' },
   { id: 4, car: 'Ashton Martin', model: 'Vantage', body_type: 'Coupe', gasoline:'19 gal', engine:'528hp 4L V8', price:'200,000' },
-  { id: 5, car: 'Mercedes Maybach', model: 'GLS-600', body_type: 'SUV', gasoline:'23 gal', engine:'550hp 4L V8', price:'218,000' },
+  { id: 5, car: 'Maybach', model: 'GLS-600', body_type: 'SUV', gasoline:'23 gal', engine:'550hp 4L V8', price:'218,000' },
 ];
 
 export default function DataGridDemo() {
@@ -67,7 +67,7 @@ export default function DataGridDemo() {
             },
           },
         }}
-        pageSizeOptions={[5]}
+        pageSizeOptions={[1]}
         checkboxSelection
         disableRowSelectionOnClick
       />

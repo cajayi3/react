@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from "../../assets/components/Button";
-import Input from "../Input";
-import { useSubmit } from "react-router-dom";
+import Input from "../../components/Input";
 import { useForm } from "react-hook-form";
+import './Login.css';
 
 
 const onSubmit = (e) => {
@@ -15,17 +15,21 @@ const Login = () => {
 
 
     return (
-        <div>
+        <div className='login'>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <div>
+                <div className='email'>
                     <label htmlFor='Email'>Email</label>
                     <Input {...register('email')} name='email' placeholder='Email' />
                 </div>
-                <div>
+                <div className='name'>
+                <label htmlFor='Name'>Name</label>
+                    <Input {...register('name')} name='name' placeholder='Name' />
+                </div>
+                <div className='password'>
                     <label htmlFor='Password'>Password</label>
                     <Input {...register('password')} name='password'placeholder='Password' />
                 </div>
-                <div className='flex p-1'>
+                <div className='flex'>
                     <Button className='flex justify-start m-3 bg-slate-300 p-2 rounded hover:bg-slate-800 text-white'
                     >
                         Submit
@@ -35,4 +39,4 @@ const Login = () => {
         </div>
     )
 }
-export default Login
+export default Login;

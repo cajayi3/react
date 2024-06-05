@@ -8,15 +8,16 @@ const Dashboard = () => {
   const form = useForm()
 
     return(
-      <div><h2 className='data'>Dealership Data</h2>
-      <div>
-        <label htmlFor='create'>Create</label>
-        <input type='text' id='create' name='create' />
-
-        <label htmlFor='update'>Update</label>
-        <input type='text' id='update' name='update' />  
+      <form>
+        <div><h2 className='data'>Dealership Data</h2>
+      <div className='Dash'>
+        <button className='Button'>Create</button>
+        <button className='Button'>Update</button>
+        <button className='Button'>Delete</button>  
       </div>
       <Child /></div>
+      </form>
+      
     )
 }
 

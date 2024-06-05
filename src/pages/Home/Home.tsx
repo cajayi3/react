@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
+import './Home.css'
+
 
 interface HomeProp {
-  name: string;
+  name : string;
 }
+
+
 
 const Home =(props: HomeProp) => {
   return(

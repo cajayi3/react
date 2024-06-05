@@ -1,0 +1,33 @@
+.mt-4 {
+    text-align: center;
+}
+
+.Sign{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.submit{
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.email{
+    text-align: center;
+    width: 20px;
+}
+
+.full-container{
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    width: 20px;
+}

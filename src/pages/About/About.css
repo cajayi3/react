@@ -1,0 +1,31 @@
+.para{
+    text-align: center;
+    
+}
+
+.container{
+    text-transform: uppercase;
+    text-indent: 30px;
+    letter-spacing: 3px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    left: 750px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr.line{
+    border-top: 5px dotted black;
+    margin-left: 750px;
+    margin-right: 800px;
+}
+
+p {
+    text-align: justify;
+}
