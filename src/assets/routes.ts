@@ -26,7 +26,7 @@ const routes: RouteType[] = [
     },
     {
       path: "/About",
-      component: About,
+      component: {About},
       name: "About",
       protected: true
     },

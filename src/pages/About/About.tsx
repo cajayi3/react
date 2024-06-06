@@ -1,11 +1,10 @@
 import React from 'react';
 import './About.css'
-import Background from '';
+import Background from '../../assets/images/smoke.jpg';
 
-const About = () => {
+const About: React.FC = () => {
     return(
-        <div className='para'>
-            style={{ backgroundImage: `url(${ Background })`}}
+        <div className='para' style={{ backgroundImage: `url(${Background})`}}>
             <h1 className='heading'>About</h1>
             <hr className='line'/>
             <div className='container'>
@@ -18,7 +17,7 @@ const About = () => {
                 </p>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default About;
