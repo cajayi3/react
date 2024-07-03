@@ -1,0 +1,12 @@
+.hello{
+    position: relative;
+    left: 970px;
+    padding-top: 200px;
+}
+
+body{
+    background-image: url('../../assets/images/dealership.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

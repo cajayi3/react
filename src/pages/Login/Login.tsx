@@ -1,8 +1,9 @@
 import React from 'react';
 import Button from "../../assets/components/Button";
-import Input from "../../components/Input";
+import Input from "../../assets/components/Input";
 import { useForm } from "react-hook-form";
 import './Login.css';
+import Background from '../../assets/images/rarri.jpg'
 
 
 const onSubmit = (e) => {
@@ -15,7 +16,8 @@ const Login = () => {
 
 
     return (
-        <div className='login'>
+        <div className='login' style={{ backgroundImage: `url(${Background})`}}>
+            <h1 className='head'>Login</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='email'>
                     <label htmlFor='Email'>Email</label>
@@ -29,8 +31,8 @@ const Login = () => {
                     <label htmlFor='Password'>Password</label>
                     <Input {...register('password')} name='password'placeholder='Password' />
                 </div>
-                <div className='flex'>
-                    <Button className='flex justify-start m-3 bg-slate-300 p-2 rounded hover:bg-slate-800 text-white'
+                <div>
+                    <Button className='flex-1'
                     >
                         Submit
                     </Button>

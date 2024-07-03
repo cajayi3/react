@@ -6,7 +6,7 @@ import Login from "../pages/Login/Login";
 
 interface RouteType {
     path: string,
-    component: (props: any) => JSX.Element,
+    component: React.ComponentType<any>,
     name: string
     protected: Boolean
 }
@@ -26,7 +26,7 @@ const routes: RouteType[] = [
     },
     {
       path: "/About",
-      component: {About},
+      component: About,
       name: "About",
       protected: true
     },

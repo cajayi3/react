@@ -4,7 +4,7 @@ import About from "../pages/About/About";
 import Login from "../pages/Login/Login";
 import Sign from "../pages/Sign/Sign";
 import CreateCar from "../pages/CreateCar";
-import Navbar from "../components/Navbar";
+import Navbar from "../assets/components/Navbar";
 
 
 

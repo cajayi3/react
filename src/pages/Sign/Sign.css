@@ -1,33 +1,60 @@
 .mt-4 {
     text-align: center;
+    color: white;
 }
 
 .Sign{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: blue;
+    color: white;
 }
 
-.submit{
+.submit1{
     color:blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-
-.container{
-    text-align: center;
+    position: relative;
+    left: 20px;
+    padding-top: 8px;
 }
 
 .email{
-    text-align: center;
+    position: relative;
+    left: 235px;
     width: 20px;
+    padding-bottom: 10px;
 }
 
 .full-container{
     text-align: center;
+    padding-top: 20px;
 }
 
-.name{
-    text-align: center;
+
+
+.name1{
+    position: relative;
+    left: 235px;
     width: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.email1{
+    position: relative;
+    right: 25px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.username1{
+    margin-bottom: 5px;
+    color: white;
+    position: relative;
+    right: 50px;
+}
+
+.flex{
+    background-color: none;
+    font-family: 'Times New Roman', Times, serif;
+
 }

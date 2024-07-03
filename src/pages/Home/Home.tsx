@@ -1,5 +1,7 @@
 import React from "react";
 import './Home.css'
+import Background from '../../assets/images/dealership.jpg'
+
 
 
 interface HomeProp {
@@ -10,8 +12,8 @@ interface HomeProp {
 
 const Home =(props: HomeProp) => {
   return(
-    <div>
-      <h1>Hello, {props.name}!</h1>
+    <div style={{ backgroundImage: `url(${Background})`}}>
+      <h1 className="hello">Hello, {props.name}!</h1>
     </div>
   )
 }

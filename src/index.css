@@ -1,7 +1,7 @@
 .navbar{
     align-items: center;
     padding: 15px;
-    display: flex;
+    display:flex;
     border-bottom: 1px solid black;
     border-radius: 10px;
 }
@@ -10,6 +10,8 @@
     margin-left: 15px;
     text-decoration: none;
     padding: 5px;
+    position: relative;
+    right: 100px;
 }
 
 .navbar .links {
@@ -32,3 +34,9 @@
     font-style: italic;
 }
 
+.flex {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px;
+    
+}

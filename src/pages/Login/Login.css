@@ -65,21 +65,43 @@ body{
     background: blue;
 }
 
-.flex {
-    color: blue;
-    text-align: center;
+.flex-1 {
+    color: white;
+    background-color: blue;
+    position: relative;
+    left: 1030px;
+    border-radius: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .name {
-    width: 800px;
+    position: relative;
+    left: 950px;
+    width: 220px;
+    color: white;
 }
 
 .email {
-    width: 800px;
+    width: 220px;
+    position: relative;
+    left: 950px;
+    padding-top: 100px;
+    color: white;
 }
+
+
 
 .password {
-    width: 200px;
+    width: 220px;
+    position: relative;
+    left: 950px;
+    color: white;
 }
 
+
+.head{
+    position: relative;
+    left: 950px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
